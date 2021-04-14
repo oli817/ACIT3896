@@ -24,15 +24,7 @@ import (
 )
 
 const (
-	// minFeasibleNodesToFind is the minimum number of nodes that would be scored
-	// in each scheduling cycle. This is a semi-arbitrary value to ensure that a
-	// certain minimum of nodes are checked for feasibility. This in turn helps
-	// ensure a minimum level of spreading.
 	minFeasibleNodesToFind = 100
-	// minFeasibleNodesPercentageToFind is the minimum percentage of nodes that
-	// would be scored in each scheduling cycle. This is a semi-arbitrary value
-	// to ensure that a certain minimum of nodes are checked for feasibility.
-	// This in turn helps ensure a minimum level of spreading.
 	minFeasibleNodesPercentageToFind = 5
 )
 
