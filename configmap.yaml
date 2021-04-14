@@ -10,8 +10,6 @@ data:
     strategies:
       "RemoveDuplicates":
          enabled: true
-      "RemovePodsViolatingInterPodAntiAffinity":
-         enabled: true
       "LowNodeUtilization":
          enabled: true
          params:
